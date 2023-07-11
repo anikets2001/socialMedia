@@ -1,10 +1,16 @@
-import React from 'react'
+import React from 'react';
+import Sidebar from '../../components/sidebar/Sidebar';
+import Topbar from '../../components/topbar/Topbar';
 
 const Home = () => {
   return (
-    <div>
-        This is Home Page
-    </div>
+    <React.Fragment>
+      <Topbar/>
+      <Sidebar />
+       
+    </React.Fragment>
+
+
   )
 }
 
