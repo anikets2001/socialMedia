@@ -3,7 +3,7 @@ import './feed.css';
 
 const Feed = () => {
     return (
-        <div>feed</div>
+        <div className='feed-wrapper'>feed</div>
     )
 }
 
