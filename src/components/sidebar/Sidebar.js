@@ -16,7 +16,6 @@ const Sidebar = () => {
         <li><a><i className="fas fa-calendar icons"></i>  Events</a></li>
         <li><a><i className="fas fa-graduation-cap icons"></i>Courses</a></li>
         <li><a> <i className="fas fa-comment-alt icons"></i>Feedback</a></li>
-
       </ul>
     </div>
   )
