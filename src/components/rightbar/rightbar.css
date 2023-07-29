@@ -1,3 +1,80 @@
 .rightbar-wrapper {
+    overflow-y: hidden;
     flex: 3;
+    padding: 20px;
+    height: 93%;
 }
+
+.rightbar-wrapper:hover {
+    overflow-y: scroll;
+}
+
+.wish-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+}
+
+.wish-wrapper  a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.status-dot {
+    height: 15px;
+    width: 15px;
+    background-color: rgb(25, 193, 25);
+    border-radius: 50%;
+    position: relative;
+    bottom: 18px;
+    left: 50px;
+
+}
+
+.gift-box {
+    height: 50px;
+    width: 50px;
+    background-image: url(../../assets/gift.png);
+    background-size: cover;
+} 
+.right-image {
+    margin-top: 50px;
+    height: 300px;
+    overflow: hidden;
+    background-size: cover;
+    border-radius: 8px;
+    background-repeat: no-repeat;
+    background-image: url('https://images.pexels.com/photos/17586064/pexels-photo-17586064/free-photo-of-cesta-baloncesto.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+}
+
+.status-wrapper {
+    margin-top: 50px;
+    max-height: 50px;
+    width: 100%;
+}
+
+.status {
+    margin-top: 10px;
+}
+
+
+.img-name-wrapper {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.img-wrapper-rightbar {
+    height: 50px;
+    width: 50px;
+}
+
+.img-name-wrapper  p {
+    margin-left: 10px;
+    font-weight: 600;
+    
+}
+
+
